@@ -4,10 +4,9 @@ is a palindrome number.
 """
 
 def is_palindrome(n):
-    num = str(n)
-    rev_num = num[::-1]
-    return rev_num == num
+    rev_num = n[::-1]
+    return rev_num == n
 
-n = int(input('Enter a number: '))
+n = input('Enter a number: ')
 
 print(is_palindrome(n))
